@@ -17,7 +17,7 @@ public class lastWordPrint {
         }
         int start = i+1;
         return s.substring(start,end+1);
-
+       ///  i am adding a comment here mere bhai i am in 2026
     }
 
     public static void main(String[] args) {

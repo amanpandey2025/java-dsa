@@ -19,4 +19,12 @@ public class binarySearchAlgo {
         }
         return -1; // target not found
     }
+
+    public static void main(String[] args) {
+        int[] arr = {1,3,5,7,9};
+        int ans = binarySearch(arr,5);
+        System.out.println("your target is found at index :"+ans);
+
+
+    }
 }
